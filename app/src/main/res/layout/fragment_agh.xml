@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:id="@+id/experience_wrap"
+        >
+        <ImageView
+            android:id="@+id/experience"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_agh"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View
+        android:layout_below="@id/experience_wrap"
+        android:layout_width="fill_parent"
+        android:id="@+id/shadow"
+        android:layout_height="5dip"
+        android:background="@drawable/drop_shadow"
+        >
+    </View>
+
+    <RelativeLayout
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/shadow"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_agh_title"
+                android:id="@+id/emisia_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/string_agh_place"
+                android:id="@+id/emisia_place"
+                android:layout_below="@+id/emisia_title"
+                android:layout_toLeftOf="@+id/emisia_dates"
+                android:layout_toStartOf="@+id/emisia_dates" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:text="@string/string_agh_dates"
+                android:id="@+id/emisia_dates"
+                android:layout_alignTop="@+id/emisia_place"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/string_agh_desc"
+                android:id="@+id/agh_desc"
+                android:layout_below="@+id/emisia_place"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="30dp" />
+
+
+        </RelativeLayout>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,7 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+
+    <color name="actionbar_background" >#037ef3</color>
+    <color name="list_view_background" >#037ef3</color>
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GST application</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open drawer</string>
+    <string name="drawer_close">Close drawer</string>
+    <string name="dialog_lauch_browser">Do you want to launch internet browser?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <!--//////////AGHFragment////////////-->
+    <string name="string_agh_title">Student - Engineering thesis</string>
+    <string name="string_agh_place">AGH – University of Science and Technology - Kraków, Poland</string>
+    <string name="string_agh_dates">January 2013</string>
+    <string name="string_agh_desc">Development of engineering project based on my own ideas. Get to know how to work with Android sensors, geolocation and augmented reality.</string>
+
+
+    <!--////////AIESECExperienceFragment/////////-->
+    <string name="string_mc_im_title">MC Information Manager</string>
+    <string name="string_mc_im_place">Poland, Warszawa</string>
+    <string name="string_mc_im_date">July 2014 - present</string>
+    <string name="string_mc_im_learnings">working in intense and international environment, working on projects, time management</string>
+    <string name="string_ogip_title">oGIP Team Leader</string>
+    <string name="string_ogip_place">Poland, Kraków</string>
+    <string name="string_ogip_date">June 2013 – March 2014</string>
+    <string name="string_ogip_learnings">leading a team, result orientation, IT recruitment, International Relations, External Relations</string>
+    <string name="string_lc_im_title">LC Information Manager</string>
+    <string name="string_lc_im_place">Poland, Kraków</string>
+    <string name="string_lc_im_date">May 2012 – January 2014</string>
+    <string name="string_lc_im_learnings">working in virtual team, creating Wordpress templates and widgets, leading small IT project</string>
+
+    <!--/////AvailabilityFragment////////-->
+    <string name="string_availability">Currently time line of my projects is quite flexible in MC team. Also schedule of my studies is not very intense because it\'s mostly delivered on-line. That is why I think I can work as Musketeer around 10-15 hours weekly.</string>
+
+    <!--/////ComarchyFragment////////-->
+    <string name="string_comarch_title">Intern in Telco division</string>
+    <string name="string_comarch_place">Comarch S.A. - Kraków, Poland</string>
+    <string name="string_comarch_dates">July  – September 2012</string>
+    <string name="string_comarch_desc">Work with Oracle Business Intelligence systems, big data and data workhouses, systems integration, Java plugins development</string>
+
+    <!--/////EmisiaFragment////////-->
+    <string name="string_emisia_title">Android applications developer</string>
+    <string name="string_emisia_place">Emisia SA - Thessaloniki, Greece</string>
+    <string name="string_emisia_dates">May – October 2013</string>
+    <string name="string_emisia_desc">Development of Android applications and additional tools needed. Get to know with serial USB data transmission in Linux (Raspberry PI with Raspbian), data transmission over TCP/IP protocol, work with QT C++ to create needed servers. Development of navigation system on Android with usage of GPS positioning, RESTfull communication with server, Android widgets.</string>
+
+    <!--/////FrameworksFragment////////-->
+    <string name="string_android_framework_desc">Main field of expertise and direction where I want to develop myself. I\'ve already created several projects for Android including my engineering thesis. My GIP internship was also based on Android development.</string>
+    <string name="string_android">Android</string>
+    <string name="string_qt">Qt Project</string>
+    <string name="string_qt_framework_desc">this is main framework for C++ that I\'ve used but I do not feel professional with it.></string>
+    <string name="string_dot_net">Microsoft .NET</string>
+    <string name="string_dot_net_framework_desc">I\'ve created several projects in C# based on .NET framework mainly for academic purposes.</string>
+
+    <!--/////IdeasFragment////////-->
+    <string name="string_personal_development_app">Personal development app</string>
+    <string name="string_personal_development_app_desc">I got idea of some kind of personal development application during IC and workshop with DP DHL. The idea is that you get some tasks or questions to do from simple ones to more extreme. All questions guide you through your personal development and social awareness. It can be used in EWA stage similar to cultureshock.me</string>
+    <string name="string_ep_lead">EP Lead app</string>
+    <string name="string_ep_lead_desc">Application that will guide EPs through their inner journey. It would be cool to include some kind of gamification and create virtual internship world with tasks and rankings</string>
+    <string name="string_finance_management">Finance management system</string>
+    <string name="string_finance_management_desc">Exchange fee is our main source of money but unfortunately we do not have any tool to track properly how much money we spend on raising and delivering one exchange. Thanks to EXPA we can create system that can track our marketing activities f.e. FB ads, websites analysis and track flow of one customer from clicking on our ad till realization of internship. In this way we can check how much money costs us one raise and what is conversion of our actions. Moreover system can be integrated with on-line payments to make EP\'s and Finance director\'s life easier. In this area there is a lot of potential to support exchange even better.</string>
+
+    <!--/////MainInfoFragment////////-->
+    <string name="string_krzysztof_jackowski">Krzysztof Jackowski</string>
+    <string name="home_mc">Home MC</string>
+    <string name="string_aiesec_poland">AIESEC Poland</string>
+    <string name="home_lc">Home LC</string>
+    <string name="lc_krakow">LC Kraków</string>
+    <string name="nationality_birth_place">Nationality,  Place of Birth</string>
+    <string name="polish_poznan">Polish, born in Poznań</string>
+    <string name="birth_date">25.04.1990</string>
+    <string name="birth_date_desc">Date of birth</string>
+    <string name="mobile">Mobile</string>
+    <string name="mobile_number">+48 604 540 745</string>
+    <string name="email">krzysztof.jackowski@aiesec.net</string>
+    <string name="email_desc">e-mail</string>
+
+    <!--/////VirtualTeamsFragment////////-->
+    <string name="string_virtual_teams_title">I was working in virtual teams several times already, the most important are:</string>
+    <string name="string_projects_websites">Creation of new websites for AIESEC in Poland – at the very beginning I was working with my friend co-developer and graphic designer physically in Kraków, but in the middle of project I went for GIP to Greece. During my internship I was managing project virtually to create websites with my friend.</string>
+    <string name="string_projects_expa">EXPA pioneers team – as EXPA responsible I was working with AI in Pioneers team what resulted with very good preparation of polish committees for implementation process. Moreover I was managing pioneers from polish entities.</string>
+    <string name="string_virtual_teams_sumup">I think one the most important element of working in virtual team is to organize physical Kick Of meeting get to know each other at the very beginning. This kind of touch point can reduce possibility of misunderstandings during whole cooperation. Moreover it\'s good opportunity for bonding and understanding each others thinking process what is crucial in creative teams. On the other hand one of the biggest learning points was to be as clear and transparent as possible because person across the network thinks in different way then you do.</string>
+
+    <!--/////WhyFragment////////-->
+    <string name="string_why">Through my whole AIESEC Experience I was looking for possibilities to use my skills and knowledge to support organization. It started with some Facebook competition apps, creating new websites for AIESEC in Poland. Right now as MC Information Manager I\'m supporting our entity with my IT expertise but I feel that my legacy can be even bigger. That is why I would like to start working on Global level and create IT solution – preferably mobile app that can be used all over the world and support exchange.</string>
+
+
+
+</resources>

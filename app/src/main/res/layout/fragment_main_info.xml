@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/scrollView"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:weightSum="1">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:background="@drawable/avatar_background"
+            android:id="@+id/avatar_layout"
+            >
+
+            <ImageView
+                android:layout_gravity="top|left"
+                android:id="@+id/frag1_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/string_krzysztof_jackowski"
+                android:id="@+id/avatar_name"
+                android:layout_gravity="right|bottom"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"/>
+        </FrameLayout>
+        <View
+            android:layout_below="@id/avatar_layout"
+            android:layout_width="fill_parent"
+            android:id="@+id/shadow"
+            android:layout_height="5dip"
+            android:background="@drawable/drop_shadow"
+            >
+        </View>
+        <RelativeLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/shadow"
+            android:orientation="vertical"
+            android:layout_weight="1.90">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/home_mc"
+                android:id="@+id/mc_title" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/string_aiesec_poland"
+                android:id="@+id/mc_name"
+                android:layout_gravity="center_horizontal"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="43dp"
+                android:layout_marginEnd="43dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/home_lc"
+                android:id="@+id/lc_title"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/mc_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/lc_krakow"
+                android:id="@+id/lc_name"
+                android:layout_alignTop="@+id/lc_title"
+                android:layout_alignLeft="@+id/mc_name"
+                android:layout_alignStart="@+id/mc_name" />
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/nationality_birth_place"
+                android:id="@+id/nationality_title"
+                android:layout_below="@+id/lc_name"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="20dp"
+                android:layout_toStartOf="@+id/lc_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/polish_poznan"
+                android:id="@+id/place_born"
+                android:layout_alignTop="@id/nationality_title"
+                android:layout_alignLeft="@id/lc_name"
+                android:layout_alignStart="@id/lc_name" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/birth_date_desc"
+                android:id="@+id/birth_title"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/nationality_title"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/birth_date"
+                android:id="@+id/birth_date"
+                android:layout_alignTop="@+id/birth_title"
+                android:layout_alignLeft="@+id/place_born"
+                android:layout_alignStart="@+id/place_born" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/mobile"
+                android:id="@+id/mobile_title"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/birth_date"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/mobile_number"
+                android:id="@+id/mobile_number"
+                android:layout_alignTop="@+id/mobile_title"
+                android:layout_alignLeft="@+id/birth_date"
+                android:layout_alignStart="@+id/birth_date" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/email_desc"
+                android:id="@+id/email_desc"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/mobile_number"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="@string/email"
+                android:id="@+id/email"
+                android:layout_alignTop="@+id/email_desc"
+                android:layout_alignLeft="@+id/mobile_number"
+                android:layout_alignStart="@+id/mobile_number" />
+
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+</ScrollView>
